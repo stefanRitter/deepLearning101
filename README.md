@@ -18,3 +18,8 @@ conda install numpy scipy pandas
 conda install jupyter notebook
 
 jupyter notebook
+
+
+# libraries
+
+http://pandas.pydata.org/pandas-docs/stable/10min.html#min
