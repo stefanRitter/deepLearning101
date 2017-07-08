@@ -1,4 +1,10 @@
+# AWS
 
+ssh udacity@54.183.142.251
+passhint: buntekinderbausteine...
+
+jupyter notebook:
+ec2-54-183-142-251.us-west-1.compute.amazonaws.com:8888
 
 # Anaconda & environments
 https://www.continuum.io/downloads
