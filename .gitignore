@@ -3,6 +3,7 @@ logs/
 *.log
 *.zip
 *.gz
+*.pickle
 .env
 .ipynb_checkpoints/
 datasets/
