@@ -1,5 +1,7 @@
 .DS_Store
 logs/
 *.log
+*.zip
 .env
 .ipynb_checkpoints/
+datasets/
