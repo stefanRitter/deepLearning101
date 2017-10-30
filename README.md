@@ -3,8 +3,11 @@
 ssh udacity@54.183.142.251
 passhint: buntekinderbausteine...
 
+screen -S note -d -m jupyter notebook
+
 jupyter notebook:
 ec2-54-183-142-251.us-west-1.compute.amazonaws.com:8888
+
 
 # Anaconda & environments
 https://www.continuum.io/downloads
@@ -17,7 +20,7 @@ conda create -n py3 python=3
 conda create -n py2 python=2
 
 source activate py3
-conda install numpy scipy pandas
+conda install numpy scipy pandas tensorflow tqdm scikit-image
 
 
 # Jupiter Notebooks

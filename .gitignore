@@ -1,4 +1,5 @@
 .DS_Store
+
 logs/
 *.log
 *.zip
@@ -6,4 +7,17 @@ logs/
 *.pickle
 .env
 .ipynb_checkpoints/
+*.pyc
+*.p
+*.pkl
+*/.floyd*
+vgg16.npy
+
+# Ignore downloaded datasets
 datasets/
+__pycache__/
+cifar-10-batches-py/
+embeddings/data/
+embeddings/text8.zip
+face_generation/data/
+flower_photos/
