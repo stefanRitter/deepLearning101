@@ -20,7 +20,7 @@ conda create -n py3 python=3
 conda create -n py2 python=2
 
 source activate py3
-conda install numpy scipy pandas tensorflow tqdm scikit-image
+conda install numpy scipy pandas tensorflow tqdm scikit-image tensorflow-gpu
 
 
 # Jupiter Notebooks
