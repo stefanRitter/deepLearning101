@@ -1,12 +1,9 @@
 # AWS
-
-ssh udacity@54.183.142.251
-passhint: buntekinderbausteine...
+ssh udacity@XX.XX.XX.XXX.XX
 
 screen -S note -d -m jupyter notebook
 
-jupyter notebook:
-ec2-54-183-142-251.us-west-1.compute.amazonaws.com:8888
+jupyter notebook: ec2-XXXX.compute.amazonaws.com:8888
 
 
 # Anaconda & environments
@@ -27,6 +24,11 @@ conda install numpy scipy pandas tensorflow tqdm scikit-image tensorflow-gpu
 conda install jupyter notebook
 
 jupyter notebook
+
+
+# floydhub
+floyd init jupyternote
+floyd run --mode jupyter --gpu --env tensorflow-1.1
 
 
 # libraries
